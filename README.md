@@ -1,18 +1,35 @@
-## Getting Started
+# Aplicação de Contagem com Validação de Parâmetros
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esta é uma aplicação simples em Java que solicita dois parâmetros numéricos ao usuário e realiza uma contagem. A aplicação inclui validações para garantir que os parâmetros sejam válidos e que a entrada seja um número inteiro.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Solicita ao usuário dois parâmetros numéricos.
+- Verifica se o primeiro parâmetro é maior que o segundo.
+- Verifica se os valores inseridos são números inteiros.
+- Se houver erro na entrada (valor não inteiro), a aplicação reinicia a entrada.
+- Realiza um loop de contagem do valor 1 até o resultado da subtração entre o primeiro e o segundo parâmetro.
+  
+## Printscreens
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Sem Erro
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+![image](https://github.com/PedroSmaxY/DesafioControleFluxo/assets/127573080/df143d87-510d-4cf5-bb4c-c39912087dbd)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Erro de Valor Inteiro
 
-## Dependency Management
+![image](https://github.com/PedroSmaxY/DesafioControleFluxo/assets/127573080/c9530caf-ebe5-464d-ad06-0cb95bad9e46)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+###  Erro de Valores
+
+![image](https://github.com/PedroSmaxY/DesafioControleFluxo/assets/127573080/ad39a136-795e-45c3-9663-cd2c34ff2367)
+
+
+## Como Usar
+
+1. Clone este repositório para o seu computador.
+2. Abra o terminal e navegue até o diretório onde o repositório foi clonado.
+3. Compile o código com `javac Contador.java`.
+4. Execute o programa com `java Contador`.
+
+Siga as instruções na tela para inserir os parâmetros. Se você fornecer valores inválidos ou não inteiros, a aplicação fornecerá feedback e pedirá que você insira os valores novamente.
