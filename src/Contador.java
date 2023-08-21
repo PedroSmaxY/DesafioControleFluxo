@@ -21,7 +21,7 @@ public class Contador {
                     break;
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Digite apenas números inteiros!");
+                System.err.println("Digite apenas números inteiros!");
                 scanner.nextLine(); 
             } catch (ParametrosInvalidosException e) {
                 System.err.println(e.getMessage());
